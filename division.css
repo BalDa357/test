@@ -1,0 +1,55 @@
+body {
+	margin:0;
+	font-family: cursive, vernada, arial;
+	background-color: #E1E1E1;
+}
+
+#flag{
+	padding: 10px;
+	margin: -35px 50px -55px 0px;
+	width:90px;
+	height:50px;
+	background-image: url(image/flag_ukr_pol.png);
+	background-size: cover;
+}
+
+#container{
+	height: 70px;
+	padding:0;
+	margin: 0;
+	text-align: center;
+	border: 1px solid #004EC2;
+	background: #004EC2;
+}
+
+ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin: 0px 20px 0px 14px;
+}
+
+ul li a{
+
+	color: #DADADA;
+	text-decoration: none;
+	text-shadow: 0px 3px 20px rgba(0, 0, 0, .9), 2px 2px 0 black;
+}
+
+ul li a:hover{
+	color: white;
+	text-shadow: 0 3px 50px white, 2px 2px 0 black;
+}
+ul li a:active{
+	text-shadow: 0 3px 50px white;
+}
+
+#main_container {
+	height:800px;
+	width:700px;
+	padding: 10px;
+	margin:auto;
+	background-color: white;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	text-align: left;
+}
